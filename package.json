@@ -1,7 +1,7 @@
 {
-  "name": "arabic-alphabet-learning-app",
+  "name": "solidjs-arabic-alphabet",
   "version": "1.0.0",
-  "description": "A special application for children to teach the letters of the Arabic alphabet with pictures",
+  "description": "SolidJS app for teaching Arabic alphabet to children",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,13 +9,14 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "solid-js": "^1.8.22"
+    "solid-js": "^1.8.22",
+    "@solidjs/router": "^0.8.4"
   },
   "devDependencies": {
-    "vite": "^5.4.7",
-    "vite-plugin-solid": "^2.10.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
-    "postcss": "^8.4.24",
-    "autoprefixer": "^10.4.20"
+    "vite": "^5.4.7",
+    "vite-plugin-solid": "^2.10.2"
   }
 }
